@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="#" sizes="32x32" href="#">
+  
+  <!-- <style>
+      .round{
+          border-radius: 50%;
+      }
+  </style> -->
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="scss/styles.css">
+  <title>ChallangeC</title>
+
+</head>
+
+<body>
+    <main>
+
+        <header id="header">
+            <nav>
+                <div class="left"><a href="#"><img src="media/logo.svg" alt="logo"/></a></div>
+                <div class="right"><a href="#"><img src="media/icon-hamburger.svg" alt="burger"></a>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Discover</a></li>
+                        <li><a href="#">GetStarted</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Discover</a></li>
+                    <li><a href="#">GetStarted</a></li>
+                </ul>
+            </div>
+            
+        </header>
+
+        <div class="container">
+            <div class="project">
+                <img src="media/logo-mastercraft.svg" alt="masterCard"/>
+                <h2 class="project-title">MasterCraft Bamboo Moniter Riser</h2>
+                <p class="project-description">A beautiful and handcrafted moniter stand to reduce neck and eye strain.</p>
+                <div class="project-button">
+                    <button class="btn-cta back-this-project">
+                        Back this project
+                    </button>
+
+                    <button class="checkbox-wrapper">
+
+                        <label for="bookmark">
+                            <img src="media/bookmark.png" width="50"  height="50" alt="" />
+                            <p class="bookmark">Bookmark</p>
+                            <input type="checkbox" name="bookmark" id="bookmark" />
+                        </label>
+
+                    </button>
+                </div>
+            </div>
+            <div class="project-process">
+                <div class="project-process__details">
+                    <span class="highlighted-inline money-backed"></span>
+                    <p>of $100000 backed</p>
+                </div>
+                <hr>
+                <div class="project-process__details">
+                    <span class="highlishted-inline total-backers"></span>
+                    <p>total backers</p>
+                </div>
+                <hr>
+                <div class="project-process__details">
+                    <span class="highlighted-inline days-left"></span>
+                    <p>days left</p>
+                </div>
+                <div class="project-progress__details progress-bar">
+                    <label class="label-backer-progress" for="progress">
+                        Backer Progress
+                    </label>
+                    <progress class="backer-progress" id="progress" value="89914" max="100000" ></progress>
+                </div>
+            </div>
+
+            <div class="progress-about">
+                <h3 class="progress-about__title">About this project</h3>
+                <p class="progress-about__desc">
+                    The Mastercraft Bamboo Monitor Riser is a sturdy and stylish platform that elevates your screen to a more comfortable viewing height. Placing your monitor at eye level has the potential to improve your posture and make you more comfortable while at work, helping you stay focused on the task at hand.
+                    <br>
+                    <br>
+                    Featuring artisan craftsmanship, the simplicity of design creates extra desk space below your computer to allow notepads, pens, and USB sticks to be stored under the stand.
+                </p>
+
+                <div class="plan-card selection-bamboo">
+                    <h4 class="plan-card__title">
+                        Bamboo Stand
+                    </h4>
+                    <span class="plan-card__highlighted highlighted">
+                        Pledge $25 or more
+                    </span>
+                    <p class="plan-card__desc">
+                        You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and you will be added to a special Backer member list.
+                    </p>
+                    <p>
+                        <span class="plan-card__remaining bolded bamboo-stand-left"></span>
+                        left
+                    </p>
+                    <button class="btn-cta btn-select-reward bamboo-stand">
+                        Select Reward
+                    </button>
+
+                </div>
+
+                <div class="plan-card selection-black">
+                    <h4 class="plan-card__title">
+                        Black Edition Stand
+                    </h4>
+                    <span class="plan-card__highlighted highlighted">
+                        Pledge $75 or more
+                    </span>
+                    <p class="plan-card__desc">
+                        You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backer member list. Shipping is included.
+                    </p>
+                    <p>
+                        <span class="plan-card__remaining bolded black-stand-left">
+                        </span>
+                        left
+                    </p>
+                    <button class="btn-cta btn-select-reward black-stand">
+                        Select Reward
+                    </button>
+                </div>
+
+                <div class="plan-card disabled">
+                    <h4 class="plan-card__title">
+                        Mahogany Special Edition
+                    </h4>
+                    <span class="plan-card__highlighted highlighted">
+                        Pledge $200 or more
+                    </span>
+                    <p class="plan-card__desc">
+                        You get two Special Edition Mahogany stands, a Backer T-Shirt, and a personal thank you. You’ll be added to our Backer member list. Shipping is included.
+                    </p>
+                    <p>
+                        <span class="bolded">
+                            0
+                        </span>
+                        left
+                    </p>
+                    <button class="btn-cta disabled btn-select-reward">
+                        Out of Stock
+                    </button>
+                </div>
+            </div>
+
+            <div class="attribution">
+                Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" 
+                rel='noopener noreferrer'>Frontend Mentor</a>. 
+                Coded by <a href='https://github.com/rizky-pm'>Tech Nuts</a>
+            </div>
+        </div>
+
+        <div class="model">
+
+        </div>
+
+        <div class="model-success">
+
+        </div>
+
+    </main>
+</body>
