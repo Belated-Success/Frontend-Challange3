@@ -1,0 +1,15 @@
+.attribution{
+    margin-top: 2rem;
+    text-align: center;
+
+    a{
+        color: inherit;
+        transition: all 0.2s ease;
+
+        &:hover{
+            color: $colorModerateCyan;
+            text-decoration: none;
+
+        }
+    }
+}
